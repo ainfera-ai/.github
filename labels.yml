@@ -1,0 +1,67 @@
+- name: bug
+  color: "d73a4a"
+  description: Something isn't working
+
+- name: enhancement
+  color: "a2eeef"
+  description: New feature or request
+
+- name: triage
+  color: "e4e669"
+  description: Needs investigation
+
+- name: trust-engine
+  color: "C4922A"
+  description: Trust scoring related
+
+- name: billing
+  color: "5B8C6A"
+  description: Billing and settlement
+
+- name: sandbox
+  color: "4A7FB5"
+  description: Sandbox execution
+
+- name: console
+  color: "7B61FF"
+  description: Console UI
+
+- name: cli
+  color: "E07A3A"
+  description: CLI related
+
+- name: sdk
+  color: "0E8A16"
+  description: SDK related
+
+- name: infra
+  color: "006B75"
+  description: Infrastructure
+
+- name: security
+  color: "B60205"
+  description: Security related
+
+- name: documentation
+  color: "0075CA"
+  description: Documentation improvements
+
+- name: good first issue
+  color: "7057FF"
+  description: Good for newcomers
+
+- name: priority-critical
+  color: "B60205"
+  description: Blocks deployment or causes data loss
+
+- name: priority-high
+  color: "D93F0B"
+  description: Important, fix this sprint
+
+- name: priority-medium
+  color: "FBCA04"
+  description: Should fix soon
+
+- name: priority-low
+  color: "0E8A16"
+  description: Nice to have

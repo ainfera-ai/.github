@@ -1,0 +1,44 @@
+---
+name: Feature Request
+description: Suggest a feature for the Ainfera platform
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product should this feature be in?
+      options:
+        - Platform API
+        - Console
+        - CLI
+        - SDK
+        - New Product
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem does this solve?
+      placeholder: I'm always frustrated when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like this to work?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions you've considered?
+    validations:
+      required: false
