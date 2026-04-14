@@ -86,9 +86,9 @@ Agent Builder → ainfera deploy → Ainfera Platform
 
 ## Company
 
-**Ainfera Pte. Ltd.** · Singapore
+**Ainfera**
 
-We're building the trust and settlement infrastructure for the AI agent economy. Pre-funding stage. NVIDIA Inception member.
+We're building the trust and settlement infrastructure for the AI agent economy.
 
 - 🌐 [ainfera.ai](https://ainfera.ai)
 - 📧 hello@ainfera.ai
