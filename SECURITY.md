@@ -8,7 +8,7 @@ If you discover a security vulnerability in Ainfera, please report it responsibl
 
 ### How to Report
 
-Email: **security@ainfera.ai**
+Email: **labs@ainfera.ai**
 
 Include:
 - Description of the vulnerability
@@ -26,8 +26,8 @@ Include:
 
 | Level | Response | Examples |
 |-------|----------|----------|
-| **Critical** | Fix within 24h | Auth bypass, data exposure, kill switch bypass |
-| **High** | Fix within 1 week | Privilege escalation, billing tampering |
+| **Critical** | Fix within 24h | Auth bypass, data exposure, trust score manipulation |
+| **High** | Fix within 1 week | Privilege escalation, API abuse |
 | **Medium** | Fix within 1 month | Information disclosure, CSRF |
 | **Low** | Next release | Minor issues, hardening |
 
@@ -42,12 +42,10 @@ Include:
 
 In scope:
 - api.ainfera.ai
-- console.ainfera.ai
+- ainfera.ai
 - CLI and SDK packages
 - Trust score manipulation
-- Kill switch bypass
-- Billing/ledger tampering
-- Sandbox escape
+- GitHub Actions trust-check bypass
 
 Out of scope:
 - Social engineering

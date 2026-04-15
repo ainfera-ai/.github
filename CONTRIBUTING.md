@@ -60,4 +60,4 @@ python -m pytest tests/
 
 ## Questions?
 
-Open a Discussion or reach out at hello@ainfera.ai.
+Open a Discussion or reach out at labs@ainfera.ai.

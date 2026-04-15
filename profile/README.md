@@ -1,99 +1,55 @@
+<div align="center">
+
 # Ainfera
 
-**The unified infrastructure platform for the AI agent economy.**
+**Trust scoring and agent discovery for the AI agent economy**
 
-Trust scoring · Sandboxed compute · Metered billing · Kill switches · Agent identity
+Connect your GitHub repo. Get a trust score. Get discovered.
 
----
+Powered by NVIDIA NIM and NeMo Guardrails.
 
-## What is Ainfera?
+[![API](https://img.shields.io/badge/API-api.ainfera.ai-2878B5?style=flat-square)](https://api.ainfera.ai/docs)
+[![CLI](https://img.shields.io/badge/CLI-pip%20install%20ainfera-2878B5?style=flat-square)](https://pypi.org/project/ainfera/)
+[![Console](https://img.shields.io/badge/Console-ainfera.ai-2878B5?style=flat-square)](https://ainfera.ai)
 
-Ainfera is the neutral exchange layer for AI agents — the infrastructure that handles trust, execution, billing, and identity so agent builders can focus on building. Think of us as the NYSE of the agentic economy: we don't build agents, we make every agent trustworthy, billable, and killable.
-
-### Core Platform Layers
-
-| Layer | What it does |
-|-------|-------------|
-| **Agent Trust Score (ATS)** | Composite 0–1000 scoring across Safety, Reliability, Quality, Performance, and Reputation. Geometric mean — zero in any dimension means zero overall. |
-| **Sandboxed Compute** | Docker containers (v0.1) → Firecracker microVMs (v1.0). Sub-125ms boot, full isolation, resource limits. |
-| **Metered Billing** | Hash-chained PostgreSQL ledger with SHA-256 tamper evidence. Three-way revenue split via Stripe Connect. |
-| **Agent Identity** | W3C DIDs and Verifiable Credentials. Persistent cryptographic identity for every agent. |
-| **Multi-Protocol Orchestration** | MCP and A2A protocol support. Connect agents to tools and to each other. |
-
-## Platform
-
-| Service | URL | Status |
-|---------|-----|--------|
-| **API** | [api.ainfera.ai](https://api.ainfera.ai/docs) | ![API Status](https://img.shields.io/badge/status-live-brightgreen) |
-| **Console** | [console.ainfera.ai](https://console.ainfera.ai) | ![Console Status](https://img.shields.io/badge/status-live-brightgreen) |
-| **CLI** | `pip install ainfera` | ![PyPI](https://img.shields.io/pypi/v/ainfera) |
-| **SDK** | `pip install ainfera-sdk` | Coming soon |
-
-## Repositories
-
-| Repo | Description | Stack |
-|------|-------------|-------|
-| [`platform-api`](https://github.com/ainfera-ai/platform-api) | FastAPI backend — trust scoring, billing, execution, registry | Python, FastAPI, PostgreSQL, Redis |
-| [`console`](https://github.com/ainfera-ai/console) | Web dashboard — agent management, trust visualization, playground | Next.js 15, TypeScript, Tailwind |
-| [`cli`](https://github.com/ainfera-ai/cli) | Command-line interface — deploy agents from your terminal | Python, Click, Rich |
-| [`sdk-python`](https://github.com/ainfera-ai/sdk-python) | Python SDK — programmatic access to the Ainfera API | Python, httpx, Pydantic |
-| [`infra`](https://github.com/ainfera-ai/infra) | Infrastructure-as-code — Docker Compose, Terraform, K8s | Docker, Terraform, Kustomize |
-| [`sandbox-runtime`](https://github.com/ainfera-ai/sandbox-runtime) | Agent sandbox execution runtime | Python, Docker, Firecracker |
-
-## Quick Start
-
-```bash
-# Install the CLI
-pip install ainfera
-
-# Check platform status
-ainfera health
-
-# Initialize an agent project
-ainfera init --name my-agent --framework langchain
-
-# Deploy your agent
-ainfera deploy
-```
-
-## Trust Scoring
-
-Every agent on Ainfera receives a trust score across 6 dimensions:
-
-```
-┌─────────────────────────────────────────┐
-│  AAA  │  912  │  support-bot            │
-│  AA   │  847  │  research-agent         │
-│  A    │  721  │  data-analyst           │
-│  BBB  │  654  │  code-reviewer          │
-│  B    │  452  │  deploy-bot             │
-│  CCC  │  312  │  rogue-bot  ⚠ KILLED   │
-└─────────────────────────────────────────┘
-```
-
-Scores use **geometric mean** — zero in any dimension collapses the total score. No gaming, no hiding behind one strong metric.
-
-## Architecture
-
-```
-Agent Builder → ainfera deploy → Ainfera Platform
-                                    ├── Trust Score Engine (6 dimensions)
-                                    ├── Sandboxed Execution (Docker/Firecracker)
-                                    ├── Metered Billing (hash-chained ledger)
-                                    ├── Kill Switch (Redis, <500ms)
-                                    └── Inference Proxy (OpenAI, NIM)
-```
-
-## Company
-
-**Ainfera**
-
-We're building the trust and settlement infrastructure for the AI agent economy.
-
-- 🌐 [ainfera.ai](https://ainfera.ai)
-- 📧 hello@ainfera.ai
-- 🐦 [@ainfera](https://twitter.com/ainfera)
+</div>
 
 ---
 
-*Ainfera — Trust infrastructure for the AI agent economy.*
+### What Ainfera does
+
+🔒 **Trust scoring** — Five-dimension behavioral trust evaluation (safety, reliability, quality, performance, reputation) using geometric mean scoring. Safety dimension evaluated by NVIDIA NeMo Guardrails. Any zero dimension collapses the score.
+
+🔍 **Agent discovery** — Semantic search marketplace powered by NVIDIA NIM embeddings. Framework-agnostic: LangChain, CrewAI, AutoGen, LangGraph, and custom agents.
+
+🏷️ **Embeddable trust badge** — Drop a `<script>` tag on any website to show an agent's live trust score.
+
+🔀 **GitHub Actions trust gate** — `ainfera/trust-check` as a required PR check. Trust drops below threshold? PR can't merge.
+
+⚡ **Four-minute deploy** — `pip install ainfera && ainfera deploy`. Agent gets a DID, trust score, and marketplace listing.
+
+### Repositories
+
+| Repo | Description |
+|------|-------------|
+| [**platform-api**](https://github.com/ainfera-ai/platform-api) | Trust scoring and discovery API. FastAPI, NeMo Guardrails, NIM inference. |
+| [**cli**](https://github.com/ainfera-ai/cli) | CLI + GitHub Actions. `pip install ainfera`. Trust-check, deploy, discover. |
+| [**sdk-python**](https://github.com/ainfera-ai/sdk-python) | Official Python SDK. Trust queries, marketplace search, badge generation. |
+
+### Trust grades
+
+```
+AAA (900+) → AA (800) → A (700) → BBB (600) → BB (500) → B (400) → CCC (<400)
+```
+
+Score = geometric mean of 5 dimensions × 1000. If ANY dimension = 0, score = 0.
+
+---
+
+<div align="center">
+
+**Ainfera Pte. Ltd.** · Singapore · [ainfera.ai](https://ainfera.ai) · [labs@ainfera.ai](mailto:labs@ainfera.ai)
+
+NVIDIA Inception Program Member
+
+</div>
