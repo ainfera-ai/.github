@@ -48,8 +48,6 @@ Score = geometric mean of 5 dimensions × 1000. If ANY dimension = 0, score = 0.
 
 <div align="center">
 
-**Ainfera Pte. Ltd.** · Singapore · [ainfera.ai](https://ainfera.ai) · [labs@ainfera.ai](mailto:labs@ainfera.ai)
-
-NVIDIA Inception Program Member
+[ainfera.ai](https://ainfera.ai) · [labs@ainfera.ai](mailto:labs@ainfera.ai)
 
 </div>
