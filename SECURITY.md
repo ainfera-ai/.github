@@ -1,53 +1,26 @@
 # Security Policy
 
-## Reporting a Vulnerability
-
-If you discover a security vulnerability in Ainfera, please report it responsibly.
-
-**DO NOT** open a public GitHub issue for security vulnerabilities.
-
-### How to Report
-
-Email: **labs@ainfera.ai**
-
-Include:
-- Description of the vulnerability
-- Steps to reproduce
-- Potential impact
-- Suggested fix (if any)
-
-### Response Timeline
-
-- **Acknowledgment**: Within 24 hours
-- **Initial assessment**: Within 72 hours
-- **Fix timeline**: Depends on severity
-
-### Severity Levels
-
-| Level | Response | Examples |
-|-------|----------|----------|
-| **Critical** | Fix within 24h | Auth bypass, data exposure, trust score manipulation |
-| **High** | Fix within 1 week | Privilege escalation, API abuse |
-| **Medium** | Fix within 1 month | Information disclosure, CSRF |
-| **Low** | Next release | Minor issues, hardening |
-
 ## Supported Versions
 
-| Version | Supported |
-|---------|-----------|
-| Latest  | ✅ |
-| Older   | ❌ |
+| Package | Version | Supported |
+|---|---|---|
+| ainfera (CLI) | 0.6.x | ✅ |
+| ainfera-sdk | 0.1.x | ✅ |
 
-## Scope
+Alpha software — APIs may change. Security fixes backported to latest
+alpha release only.
 
-In scope:
-- api.ainfera.ai
-- ainfera.ai
-- CLI and SDK packages
-- Trust score manipulation
-- GitHub Actions trust-check bypass
+## Reporting a Vulnerability
 
-Out of scope:
-- Social engineering
-- DDoS
-- Third-party services
+Please email **security@ainfera.ai** with:
+- A description of the vulnerability
+- Steps to reproduce
+- Affected package and version
+- Any proof-of-concept code (optional)
+
+We aim to acknowledge within 48 hours and patch critical vulnerabilities
+within 7 days. Please do not file public GitHub issues for security
+reports.
+
+Responsible disclosure appreciated. We do not currently run a bug
+bounty program.

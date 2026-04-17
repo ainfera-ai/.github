@@ -1,6 +1,9 @@
 <div align="center">
   <h1>Ainfera</h1>
-  <p><strong>The infrastructure layer for the AI agent economy.</strong></p>
+  <p><strong>The neutral infrastructure exchange for the AI agent economy.</strong></p>
+  <p>
+    Trust · Discovery · Compute · Billing · Orchestration — one SDK, every framework.
+  </p>
   <p>
     <a href="https://ainfera.ai">Website</a> ·
     <a href="https://api.ainfera.ai/docs">API docs</a> ·
@@ -8,37 +11,72 @@
   </p>
 </div>
 
+---
+
 ## What we build
 
 Ainfera is a five-layer platform for deploying, discovering, and
-settling AI agents across frameworks:
+settling AI agents across frameworks.
 
-1. **Trust** — five-dimension agent trust scoring grounded in execution
-   telemetry. Geometric mean. Zero in any dimension collapses the score.
-2. **Discovery** — W3C DID registry with cross-framework semantic search.
+1. **Trust** — five-dimension agent trust scoring (Reliability, Quality,
+   Cost-efficiency, Security, Compliance) grounded in real execution
+   telemetry. Geometric mean aggregation — any dimension at zero
+   collapses the overall score. There is no gaming this.
+2. **Discovery** — W3C DID registry (`did:ainfera:agent:*`) with
+   cross-framework semantic search and verifiable credentials.
 3. **Compute** — sandboxed execution with sub-500ms kill switches.
    Docker today, Firecracker microVMs on the roadmap.
-4. **Billing** — Stripe Connect three-way splits. Creator 85%, platform
-   5%, compute 10%. Fiat-native, no blockchain.
-5. **Orchestration** — MCP and A2A protocols with policy-enforced routing.
+4. **Billing** — Stripe Connect three-way splits. Creator 85% · Platform
+   5% · Compute 10%. Fiat-native, no blockchain.
+5. **Orchestration** — MCP and A2A v1.0 with policy-enforced routing
+   (Cedar + OPA policy engine arrives in Stage 1).
 
 ## Open source
 
-| Repo | What it is |
-| --- | --- |
-| [cli](https://github.com/ainfera-ai/cli) | `pip install ainfera` — deploy, trust-score, kill-switch |
-| [sdk-python](https://github.com/ainfera-ai/sdk-python) | `pip install ainfera-sdk` — Python SDK |
-| [openclaw](https://github.com/ainfera-ai/openclaw) | Ainfera-native agent framework · Alpha Q3 2026 |
+| Repo | Install | What it is |
+|---|---|---|
+| [cli](https://github.com/ainfera-ai/cli) | `pip install ainfera` | Deploy, trust-score, kill-switch, billing views |
+| [sdk-python](https://github.com/ainfera-ai/sdk-python) | `pip install ainfera-sdk` | Typed async-capable Python client |
+| [openclaw](https://github.com/ainfera-ai/openclaw) | Q3 2026 | Ainfera-native agent framework (design phase) |
 
-More repos coming as we open-source additional layers.
+More repositories open as we expand the platform.
 
 ## Status
 
-Ainfera is in private beta. Pre-seed funding round open in Q2 2026.
+Ainfera is in **private beta**. Developer alpha is shipping now — the
+CLI, SDK, and API are live. Platform features roll out through Q2–Q4
+2026.
 
-Built on NVIDIA NIM, NeMo Guardrails, Stripe Connect. Incorporated in
-Singapore.
+Pre-seed funding round open in Q2 2026. Built on NVIDIA NIM, NeMo
+Guardrails, and Stripe Connect. Incorporated as a Singapore Pte. Ltd.
+(post-funding close).
+
+## Getting started
+
+```bash
+pip install ainfera
+ainfera auth login --key ainf_your_api_key
+ainfera status
+ainfera deploy --demo
+```
+
+See the [CLI README](https://github.com/ainfera-ai/cli) for a full
+command reference, and the [API docs](https://api.ainfera.ai/docs) for
+endpoint-level detail.
+
+## Partners & programs
+
+- **NVIDIA Inception & Ignition** — application submitted
+- **SMU School of Computing** — research partnership in active discussion
+  with Prof. David Lo (OUB Chair Professor; ACM Fellow; IEEE Fellow; PI
+  on the NRF-funded *TrustedSEERs* agent trust research program)
+
+## Contact
+
+- General: hello@ainfera.ai
+- Security: security@ainfera.ai
+- Careers: careers@ainfera.ai
 
 ---
 
-<sub>© 2026 Ainfera Pte. Ltd. · Apache 2.0 open-source components</sub>
+<sub>© 2026 Ainfera Pte. Ltd. · Singapore · Apache 2.0 for open-source components</sub>
