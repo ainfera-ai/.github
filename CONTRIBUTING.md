@@ -1,6 +1,6 @@
 # Contributing to Ainfera
 
-Thank you for your interest in contributing to Ainfera!
+Thank you for your interest in contributing to Ainfera.
 
 ## Getting Started
 
@@ -27,23 +27,6 @@ We use [Conventional Commits](https://www.conventionalcommits.org/):
 
 ## Development Setup
 
-### Platform API
-```bash
-cd platform-api
-make dev    # Starts Docker Compose + uvicorn
-make test   # Run tests
-make lint   # Ruff + mypy
-```
-
-### Console
-```bash
-cd console
-npm install
-npm run dev  # http://localhost:3000
-npm run lint
-npm run build
-```
-
 ### CLI
 ```bash
 cd cli
@@ -52,12 +35,18 @@ ainfera --version
 python -m pytest tests/
 ```
 
+### Python SDK
+```bash
+cd sdk-python
+pip install -e ".[dev]"
+python -m pytest tests/
+```
+
 ## Code Style
 
 - **Python**: ruff formatter + linter, mypy strict
-- **TypeScript**: ESLint + Prettier, strict mode
 - **All**: type hints required, no `any` types
 
 ## Questions?
 
-Open a Discussion or reach out at labs@ainfera.ai.
+Open a Discussion or reach out at hello@ainfera.ai.
