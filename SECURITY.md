@@ -24,3 +24,8 @@ reports.
 
 Responsible disclosure appreciated. We do not currently run a bug
 bounty program.
+
+---
+
+© 2026 Ainfera Pte. Ltd. · Singapore
+
