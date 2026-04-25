@@ -1,0 +1,53 @@
+---
+name: Bug Report
+description: Report a bug in an Ainfera product
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which Ainfera product is affected?
+      options:
+        - Platform API (api.ainfera.ai)
+        - Console (app.ainfera.ai)
+        - CLI (pip install ainfera)
+        - SDK (pip install ainfera-sdk)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the bug
+      placeholder: What happened? What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Your environment details
+      placeholder: |
+        - OS: macOS 15.1
+        - Browser: Chrome 131
+        - CLI version: ainfera 0.3.0
+        - Python: 3.12
+    validations:
+      required: false
