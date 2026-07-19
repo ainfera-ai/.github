@@ -1,17 +1,33 @@
-# .github
+# ainfera-ai/.github
 
-> Ainfera org profile — Neptune models + Stage-0 factory.
+Organization profile and shared GitHub community files for **Ainfera**.
 
-**Visibility (target):** `public`  
-**Clean-slate scaffold:** 2026-07-19  
-**Location:** `synology_shared/ainfera-ai/.github`
+## What lives here
 
-## Purpose
+| Path | Purpose |
+|------|---------|
+| [`profile/README.md`](profile/README.md) | Public GitHub organization profile (rendered on the org home) |
+| Community health files | `CODE_OF_CONDUCT`, `SECURITY`, `SUPPORT`, and related templates as they are added |
 
-Organization profile and community health files.
+## Ainfera in one line
 
-## Status
+Ainfera builds **Neptune** — agent-native models (`Neptune-1.0-27B`, `Neptune-1.0-9B`), a Stage-0 factory, and verifiable evaluation certificates (VAC/$).
 
-From-zero scaffold on Synology. Not a dump of the historic GitHub tree.
+## Related repositories
 
-Remote GitHub wiring happens only on founder-ratified cutover (no auto-push from this scaffold).
+| Repository | Visibility | Role |
+|------------|------------|------|
+| [`neptune`](https://github.com/ainfera-ai/neptune) | Private | Stage-0 factory and Core program control plane |
+| [`neptune-evals`](https://github.com/ainfera-ai/neptune-evals) | Private until launch | Eval suites, certificates, VAC/$ harness |
+| [`web`](https://github.com/ainfera-ai/web) | Public | ainfera.ai — Neptune lab site |
+| [`valar`](https://github.com/ainfera-ai/valar) | Private | Company operating system and knowledge vault |
+| [`api`](https://github.com/ainfera-ai/api) | Private | Serve path for closed specialists |
+| [`labs`](https://github.com/ainfera-ai/labs) | Private | Factory-adjacent R&D experiments |
+
+## Maintenance
+
+Keep the org profile accurate, short, and claim-safe.
+
+- Name only Core sizes that are on the public roadmap: **27B** and **9B**
+- Do not assert benchmark wins without a linked certificate
+- Prefer links to locked program docs over marketing copy in this repo
