@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ainfera-mark-ice.svg" alt="Ainfera" width="128" />
+</p>
+
 # Ainfera
 
 **Agent-native language models, built under evidence.**
