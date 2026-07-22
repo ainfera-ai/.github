@@ -4,73 +4,62 @@
 
 # Ainfera
 
-**Built by agents, for agents.**  
-**Agent-native models. Evidence-gated factory.**
+**Agent-native models, bound by evidence.**
 
-Ainfera is a **model factory** for agent-native language models. We build systems that live in the loop — plan, call tools, read the environment, recover, and finish work — and we ship them only when identity, data rights, locked harnesses, and sealed evaluation bind.
+Ainfera builds **Neptune** — models native to the agent loop, produced by a factory that ships only when identity, data rights, pinned harnesses, and sealed evaluation bind.
 
-The product family is **Neptune**.
+```text
+We build models that finish work in the world —
+and only ship them when the evidence holds.
+```
 
 ## Philosophy
 
 ```text
-Models are the product.
-The loop is the unit of intelligence.
-Evidence beats enthusiasm.
-Open Core proves. Closed specialists commercialize.
-A factory that cannot refuse is a cost sink.
-Dates are targets. Gates are law.
+The unit is the loop, not the monologue.
+Proof before claim.
+Open Core verifies. Closed specialists deliver.
+Refusal is a feature.
+Class, not cosmos.
 ```
 
-We do not sell a routing marketplace.  
-We do not treat training-job completion as release.  
-We do not claim “best model” in the abstract.
+Neptune is trained and measured inside agent protocols:
 
-We aim for the best **preregistered local-agent class** under named constraints: size, hardware, VRAM, latency, harness, and quant.
+```text
+plan → act through tools → read the world → recover → complete
+```
+
+under a pinned harness — not a chat model wrapped in a prompt.
+
+We are a **model factory**, not a marketplace.  
+Serving rails distribute; they do not define us.
 
 ## Neptune
-
-Neptune is agent-native by construction: behavior trained and measured inside agent protocols, not bolted on after a chat SFT.
 
 | Line | Role |
 |------|------|
 | **Neptune** (open) | Proof layer: `Neptune-1.0-27B`, `Neptune-1.0-9B` |
-| **Neptune Finance-70B** | Closed **agentic** finance specialist — multi-step tools, audit artifacts, compliance stops; not a finance chatbot |
-| **Ainfera Factory** | Stage-0 production system: admit → pilot/train → seal → certificate → claim |
+| **Neptune Finance-70B** | Closed **agentic** finance specialist — tools, audit artifacts, compliance stops |
+| **Ainfera Factory** | Production system: admit → pilot/train → seal → certificate → claim |
 | **Eval certificates** | Preregistered held-out evidence; **VAC/$** where defined |
 
-`27B` and `9B` are **independent** evidence chains. Neither inherits the other’s scores, quants, or release authority. Larger closed specialists keep their own seals.
-
-## Agent-native means
-
-```text
-tool selection under a pinned surface
-schema-true arguments
-use of environment feedback
-repair after failure
-abstain / stop inside policy
-task completion — not essay completion
-```
-
-The harness is part of the product: parser, sampling, tool contract, budgets, task identity.  
-A weight file without a protocol is not a Neptune release.
+`27B` and `9B` are **independent** evidence chains. Neither inherits the other’s scores, quants, or release authority.
 
 ## Ainfera Factory
-
-Ainfera Factory is the evidence-gated production system behind Neptune.
 
 ```text
 public-data admit
   → base reproduction
   → frozen peers + harness pin
   → trajectories + pilots
-  → earned SFT → DPO → GRPO (uplift-gated)
+  → earned SFT → DPO → GRPO (only with uplift)
   → quant + device certificates
   → sealed eval + independent reproduction
   → claim envelope only as wide as the receipts
 ```
 
-If the chain is incomplete, the factory **holds**.
+If the chain is incomplete, the factory **holds**.  
+A factory that cannot refuse is a cost sink.
 
 ## Release law
 
@@ -83,7 +72,9 @@ No Neptune model is announced as superior, public, or fundable on vibes. A relea
 3. A named device / serving envelope when deployment is claimed  
 4. A passing release gate  
 
-Open Core is **proof and distribution**.  
+Claims stay inside a **preregistered local-agent class** (size, hardware, VRAM, latency, harness, quant) — never unqualified “best model.”
+
+Open Core is verification and distribution.  
 Commercial depth sits in closed agentic specialists.
 
 ## Public surfaces
