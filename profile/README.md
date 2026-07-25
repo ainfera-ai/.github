@@ -4,7 +4,7 @@
 
 # Ainfera
 
-**Agent-native models, bound by evidence.**
+**AI-native model factory. Agent-native Core, bound by evidence.**
 
 Ainfera builds **Neptune** — models native to the agent loop, produced by a factory that ships only when identity, data rights, pinned harnesses, and sealed evaluation bind.
 
@@ -34,16 +34,23 @@ under a pinned harness — not a chat model wrapped in a prompt.
 We are a **model factory**, not a marketplace.  
 Serving rails distribute; they do not define us.
 
-## Neptune
+## Neptune (pre-funding)
 
 | Line | Role |
 |------|------|
-| **Neptune** (open) | Proof layer: `Neptune-1.0-27B`, `Neptune-1.0-9B` |
-| **Neptune Finance-70B** | Closed **agentic** finance specialist — tools, audit artifacts, compliance stops |
+| **Neptune-1.0-27B** (open Core) | Primary public Core — sealed agent-class evidence |
+| **Neptune-1.0-27B-Q*** (edge) | Same-net quant delivery SKUs (Q8 / Q5 / Q4 …) — **not** a separate 9B product |
+| **Neptune Finance-70B** | Closed **agentic** finance specialist — **post-raise + gates only** |
 | **Ainfera Factory** | Production system: admit → pilot/train → seal → certificate → claim |
 | **Eval certificates** | Preregistered held-out evidence; **VAC/$** where defined |
 
-`27B` and `9B` are **independent** evidence chains. Neither inherits the other’s scores, quants, or release authority.
+```text
+Pre-funding public Core: Neptune-1.0-27B ONLY (+ certified quant SKUs of the same net)
+NOT pre-funding:         Neptune-1.0-9B public Core
+NOT pre-funding:         Finance-70B public / warm path
+```
+
+Quant is **bits on the 27B net**, not a second dense Core line.
 
 ## Ainfera Factory
 
@@ -75,15 +82,9 @@ No Neptune model is announced as superior, public, or fundable on vibes. A relea
 Claims stay inside a **preregistered local-agent class** (size, hardware, VRAM, latency, harness, quant) — never unqualified “best model.”
 
 Open Core is verification and distribution.  
-Commercial depth sits in closed agentic specialists.
+Commercial depth sits in closed agentic specialists — after funding and gates.
 
 ## Public surfaces
 
-- Website: [ainfera.ai](https://ainfera.ai) *(in progress)*  
-- Hugging Face: [huggingface.co/ainfera-ai](https://huggingface.co/ainfera-ai)  
-- GitHub org: this profile  
-- Models: published when certificates clear  
-
-## Contact
-
-Partnerships and questions: via [ainfera.ai](https://ainfera.ai) when live.
+- Site: [ainfera.ai](https://ainfera.ai)
+- Org: [github.com/ainfera-ai](https://github.com/ainfera-ai)
