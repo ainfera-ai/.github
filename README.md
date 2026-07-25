@@ -17,7 +17,7 @@ Organization profile and shared GitHub community files for **Ainfera**.
 
 ## Ainfera in one line
 
-Ainfera builds **Neptune** — agent-native models (`Neptune-1.0-27B`, `Neptune-1.0-9B`), a Stage-0 factory, and verifiable evaluation certificates (VAC/$).
+Ainfera is an **AI-native model factory**. Pre-funding public Core: **Neptune-1.0-27B** + same-net **quant SKUs**. Not Neptune-1.0-9B. Not inference markup as the company story.
 
 ## Related repositories
 
@@ -34,7 +34,8 @@ Ainfera builds **Neptune** — agent-native models (`Neptune-1.0-27B`, `Neptune-
 
 Keep the org profile accurate, short, and claim-safe.
 
-- Name only Core sizes that are on the public roadmap: **27B** and **9B**
+- Pre-funding Core names: **Neptune-1.0-27B** and certified **quant SKUs** of that net only
+- Do **not** list Neptune-1.0-9B as a shipping pre-fund Core
 - Do not assert benchmark wins without a linked certificate
 - Prefer links to locked program docs over marketing copy in this repo
 - Brand mark in READMEs only — do not change the GitHub org avatar from this repo without an explicit founder ask
