@@ -5,11 +5,11 @@
 <h1 align="center">Ainfera</h1>
 
 <p align="center">
-  <strong>The Inference of AI Agents</strong>
+  <strong>The AI-native model factory</strong>
 </p>
 
 <p align="center">
-  Outcome-aware routing · Evidence-gated models · Savings-bound delivery
+  Building <strong>Neptune</strong> — agent-native open Core, bound by evidence
 </p>
 
 <p align="center">
@@ -27,38 +27,21 @@
 <br />
 
 ```text
-We build systems that finish work in the world —
+We build models that finish work in the world —
 and only ship claims when the evidence holds.
 ```
 
 <br />
 
-## What we build
+## What we are
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Ainfera** is an **AI-native model factory**.
 
-### Model factory
-**Neptune** — models native to the agent loop, not chat models wrapped in a prompt.
+Our product line is **Neptune** — models native to the agent loop, not chat models wrapped in a prompt.
 
 ```text
 plan → tools → world → recover → complete
 ```
-
-</td>
-<td width="50%" valign="top">
-
-### Inference of agents
-Outcome-aware routing so agents complete work with verified traces and all-in cost below baseline.
-
-```text
-route → verify → bound cost → prove
-```
-
-</td>
-</tr>
-</table>
 
 <p align="center"><em>A factory, not a marketplace. Rails distribute. Evidence defines us.</em></p>
 
@@ -133,5 +116,5 @@ No leaderboard vibes without receipts.
 ---
 
 <p align="center">
-  <sub>Evidence-gated · Savings-bound · © Ainfera Inc.</sub>
+  <sub>AI-native model factory · Neptune · Evidence-gated · © Ainfera Inc.</sub>
 </p>

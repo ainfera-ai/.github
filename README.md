@@ -6,7 +6,7 @@ Organization profile and shared GitHub community files for **Ainfera**.
   <img src="assets/ainfera-mark-ice.svg" alt="Ainfera mark" width="96" />
 </p>
 
-<p align="center"><strong>The Inference of AI Agents</strong> · Evidence-gated · Savings-bound</p>
+<p align="center"><strong>The AI-native model factory</strong> · Neptune · Evidence-gated</p>
 
 <p align="center">
   <a href="https://ainfera.ai">Website</a> ·
@@ -25,7 +25,7 @@ Organization profile and shared GitHub community files for **Ainfera**.
 
 ## Ainfera in one line
 
-Ainfera is an **AI-native model factory**. Public open Core line: **Neptune-1.0-27B** and same-net **quant SKUs**. Proof before claim.
+Ainfera is an **AI-native model factory** building **Neptune**. Public open Core line: **Neptune-1.0-27B** and same-net **quant SKUs**. Proof before claim.
 
 ## Related repositories
 
