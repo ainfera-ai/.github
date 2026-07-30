@@ -6,14 +6,16 @@ Organization profile and shared GitHub community files for **Ainfera**.
   <img src="assets/ainfera-mark-ice.svg" alt="Ainfera mark" width="96" />
 </p>
 
+<p align="center"><strong>The Inference of AI Agents</strong> · Evidence-gated · Savings-bound</p>
+
 ## What lives here
 
 | Path | Purpose |
 |------|---------|
-| [`profile/README.md`](profile/README.md) | Public GitHub organization profile (rendered on the org home) |
-| [`profile/ainfera-mark-ice.svg`](profile/ainfera-mark-ice.svg) | Ice mark used on the org profile README |
+| [`profile/README.md`](profile/README.md) | Public GitHub **organization profile** (org home) |
+| [`profile/ainfera-mark-ice.svg`](profile/ainfera-mark-ice.svg) | Ice mark for the org profile |
 | [`assets/ainfera-mark-ice.svg`](assets/ainfera-mark-ice.svg) | Same mark for this repo README |
-| Community health files | `CODE_OF_CONDUCT`, `SECURITY`, `SUPPORT`, and related templates as they are added |
+| Community health | `CODE_OF_CONDUCT`, `SECURITY`, `SUPPORT` as added |
 
 ## Ainfera in one line
 
@@ -24,18 +26,7 @@ Ainfera is an **AI-native model factory**. Pre-funding public Core: **Neptune-1.
 | Repository | Visibility | Role |
 |------------|------------|------|
 | [`neptune`](https://github.com/ainfera-ai/neptune) | Private | Stage-0 factory and Core program control plane |
-| [`neptune-evals`](https://github.com/ainfera-ai/neptune-evals) | Private until launch | Eval suites, certificates, VAC/$ harness |
-| [`web`](https://github.com/ainfera-ai/web) | Public | ainfera.ai — Neptune lab site |
-| [`valar`](https://github.com/ainfera-ai/valar) | Private | Company operating system and knowledge vault |
-| [`api`](https://github.com/ainfera-ai/api) | Private | Serve path for closed specialists |
-| [`labs`](https://github.com/ainfera-ai/labs) | Private | Factory-adjacent R&D experiments |
-
-## Maintenance
-
-Keep the org profile accurate, short, and claim-safe.
-
-- Pre-funding Core names: **Neptune-1.0-27B** and certified **quant SKUs** of that net only
-- Do **not** list Neptune-1.0-9B as a shipping pre-fund Core
-- Do not assert benchmark wins without a linked certificate
-- Prefer links to locked program docs over marketing copy in this repo
-- Brand mark in READMEs only — do not change the GitHub org avatar from this repo without an explicit founder ask
+| [`ainfera-evals`](https://github.com/ainfera-ai/ainfera-evals) | Private until launch | Eval suites, certificates, VAC/$ harness |
+| [`web`](https://github.com/ainfera-ai/web) | Private / site | ainfera.ai lab site |
+| [`valar`](https://github.com/ainfera-ai/valar) | Private | Company OS and knowledge vault |
+| [`api`](https://github.com/ainfera-ai/api) | Private | Closed specialist serve path |

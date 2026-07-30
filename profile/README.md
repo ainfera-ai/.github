@@ -1,88 +1,142 @@
 <p align="center">
-  <img src="ainfera-mark-ice.svg" alt="Ainfera" width="128" />
+  <img src="ainfera-mark-ice.svg" alt="Ainfera" width="140" />
 </p>
 
-# Ainfera
+<h1 align="center">Ainfera</h1>
 
-**AI-native model factory. Agent-native Core, bound by evidence.**
+<p align="center">
+  <strong>The Inference of AI Agents</strong>
+</p>
 
-Ainfera builds **Neptune** — models native to the agent loop, produced by a factory that ships only when identity, data rights, pinned harnesses, and sealed evaluation bind.
+<p align="center">
+  Outcome-aware routing · Evidence-gated models · Savings-bound delivery
+</p>
+
+<p align="center">
+  <a href="https://ainfera.ai"><img alt="Website" src="https://img.shields.io/badge/ainfera.ai-0B1220?style=for-the-badge&labelColor=111A2E" /></a>
+  <a href="https://github.com/ainfera-ai"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ainfera--ai-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://huggingface.co/ainfera-ai"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-ainfera--ai-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" /></a>
+</p>
+
+---
+
+<br />
 
 ```text
-We build models that finish work in the world —
-and only ship them when the evidence holds.
+We build systems that finish work in the world —
+and only ship claims when the evidence holds.
 ```
+
+<br />
+
+## What we are
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Model factory
+Neptune is trained and measured inside the **agent loop** — not a chat model wrapped in a prompt.
+
+```text
+plan → tools → world → recover → complete
+```
+
+</td>
+<td width="50%" valign="top">
+
+### Inference of agents
+Outcome-aware routing so agents complete work with **verified** traces and **customer all-in < baseline**.
+
+```text
+route → verify → bound cost → prove
+```
+
+</td>
+</tr>
+</table>
+
+<p align="center"><em>We are a factory, not a marketplace. Rails distribute. Evidence defines us.</em></p>
+
+---
 
 ## Philosophy
 
-```text
-The unit is the loop, not the monologue.
-Proof before claim.
-Open Core verifies. Closed specialists deliver.
-Refusal is a feature.
-Class, not cosmos.
-```
+| | |
+|:--|:--|
+| **Loop, not monologue** | The unit of quality is a finished agent episode |
+| **Proof before claim** | Training done ≠ release. Receipts the only door |
+| **Open Core verifies** | Public Core is the audit surface |
+| **Refusal is a feature** | Incomplete chain → hold. Never soft-ship |
+| **Class, not cosmos** | Claims stay inside a named size / device / harness envelope |
 
-Neptune is trained and measured inside agent protocols:
+---
 
-```text
-plan → act through tools → read the world → recover → complete
-```
-
-under a pinned harness — not a chat model wrapped in a prompt.
-
-We are a **model factory**, not a marketplace.  
-Serving rails distribute; they do not define us.
-
-## Neptune (pre-funding)
+## Neptune · pre-funding surface
 
 | Line | Role |
-|------|------|
-| **Neptune-1.0-27B** (open Core) | Primary public Core — sealed agent-class evidence |
-| **Neptune-1.0-27B-Q*** (edge) | Same-net quant delivery SKUs (Q8 / Q5 / Q4 …) — **not** a separate 9B product |
-| **Ainfera Factory** | Production system: admit → pilot/train → seal → certificate → claim |
-| **Eval certificates** | Preregistered held-out evidence; **VAC/$** where defined |
+|:-----|:-----|
+| **Neptune-1.0-27B** | Primary open Core — agent-class evidence |
+| **Neptune-1.0-27B-Q\*** | Same-net edge quant (Q8 / Q5 / Q4 …) — **bits, not a second dense Core** |
+| **Ainfera Factory** | admit → pilot → train → seal → certificate → claim |
+| **Eval certificates · VAC/$** | Preregistered held-out proof; Verified Agentic Completions per Dollar where defined |
 
 ```text
-Pre-funding public Core: Neptune-1.0-27B ONLY (+ certified quant SKUs of the same net)
-NOT pre-funding:         Neptune-1.0-9B public Core
+Public Core (pre-funding):   Neptune-1.0-27B  +  certified quant SKUs of the same net
+Not pre-funding public Core: Neptune-1.0-9B
 ```
 
-Quant is **bits on the 27B net**, not a second dense Core line.
+---
 
-## Ainfera Factory
+## Factory law
 
 ```text
 public-data admit
-  → base reproduction
-  → frozen peers + harness pin
-  → trajectories + pilots
-  → earned SFT → DPO → GRPO (only with uplift)
-  → quant + device certificates
-  → sealed eval + independent reproduction
-  → claim envelope only as wide as the receipts
+    → base reproduction
+    → frozen peers + harness pin
+    → trajectories + pilots
+    → SFT → DPO → GRPO   (only with measured uplift)
+    → quant + device certificates
+    → sealed eval + independent reproduction
+    → claim envelope ≤ width of the receipts
 ```
 
-If the chain is incomplete, the factory **holds**.  
+If any link is missing, the factory **holds**.  
 A factory that cannot refuse is a cost sink.
+
+---
 
 ## Release law
 
-Training completion is not a release criterion.
+Training completion is **not** a release criterion.
 
-No Neptune model is announced as superior, public, or fundable on vibes. A release path requires:
+A release path requires:
 
-1. Preregistered, held-out comparative evidence under a frozen agent harness  
-2. Provenance-bound reproducibility  
-3. A named device / serving envelope when deployment is claimed  
-4. A passing release gate  
+1. **Preregistered**, held-out comparative evidence under a frozen agent harness  
+2. **Provenance-bound** reproducibility  
+3. A **named** device / serving envelope when deployment is claimed  
+4. A **passing** release gate  
 
-Claims stay inside a **preregistered local-agent class** (size, hardware, VRAM, latency, harness, quant) — never unqualified “best model.”
+No unqualified “best model.”  
+No vibes on a leaderboard screenshot.  
+No public checkpoint without founder CLEAR and release authority.
 
-Open Core is verification and distribution.  
-Commercial depth sits in closed agentic specialists — after funding and gates.
+---
 
-## Public surfaces
+## Product surface
 
-- Site: [ainfera.ai](https://ainfera.ai)
-- Org: [github.com/ainfera-ai](https://github.com/ainfera-ai)
+| Surface | Purpose |
+|:--------|:--------|
+| [ainfera.ai](https://ainfera.ai) | Lab + company site |
+| [`ainfera-evals`](https://github.com/ainfera-ai/ainfera-evals) | Certificates + VAC/$ (private until launch) |
+| [`neptune`](https://github.com/ainfera-ai/neptune) | Factory control plane (private) |
+| [Hugging Face @ainfera-ai](https://huggingface.co/ainfera-ai) | Weights when certificates clear |
+
+---
+
+<p align="center">
+  <sub>
+    Delaware C-Corp · Evidence-gated · Gates over dates<br />
+    © Ainfera Inc.
+  </sub>
+</p>
