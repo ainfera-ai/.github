@@ -40,14 +40,12 @@ Serving rails distribute; they do not define us.
 |------|------|
 | **Neptune-1.0-27B** (open Core) | Primary public Core — sealed agent-class evidence |
 | **Neptune-1.0-27B-Q*** (edge) | Same-net quant delivery SKUs (Q8 / Q5 / Q4 …) — **not** a separate 9B product |
-| **Neptune Finance-70B** | Closed **agentic** finance specialist — **post-raise + gates only** |
 | **Ainfera Factory** | Production system: admit → pilot/train → seal → certificate → claim |
 | **Eval certificates** | Preregistered held-out evidence; **VAC/$** where defined |
 
 ```text
 Pre-funding public Core: Neptune-1.0-27B ONLY (+ certified quant SKUs of the same net)
 NOT pre-funding:         Neptune-1.0-9B public Core
-NOT pre-funding:         Finance-70B public / warm path
 ```
 
 Quant is **bits on the 27B net**, not a second dense Core line.
