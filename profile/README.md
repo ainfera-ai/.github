@@ -14,8 +14,12 @@
 
 <p align="center">
   <a href="https://ainfera.ai"><img alt="Website" src="https://img.shields.io/badge/ainfera.ai-0B1220?style=for-the-badge&labelColor=111A2E" /></a>
-  <a href="https://github.com/ainfera-ai"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ainfera--ai-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://huggingface.co/ainfera-ai"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-ainfera--ai-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" /></a>
+  &nbsp;
+  <a href="https://x.com/ainfera_ai"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/company/ainfera/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://huggingface.co/ainfera-ai"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" /></a>
 </p>
 
 ---
@@ -29,14 +33,14 @@ and only ship claims when the evidence holds.
 
 <br />
 
-## What we are
+## What we build
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### Model factory
-Neptune is trained and measured inside the **agent loop** — not a chat model wrapped in a prompt.
+**Neptune** — models native to the agent loop, not chat models wrapped in a prompt.
 
 ```text
 plan → tools → world → recover → complete
@@ -46,7 +50,7 @@ plan → tools → world → recover → complete
 <td width="50%" valign="top">
 
 ### Inference of agents
-Outcome-aware routing so agents complete work with **verified** traces and **customer all-in < baseline**.
+Outcome-aware routing so agents complete work with verified traces and all-in cost below baseline.
 
 ```text
 route → verify → bound cost → prove
@@ -56,7 +60,7 @@ route → verify → bound cost → prove
 </tr>
 </table>
 
-<p align="center"><em>We are a factory, not a marketplace. Rails distribute. Evidence defines us.</em></p>
+<p align="center"><em>A factory, not a marketplace. Rails distribute. Evidence defines us.</em></p>
 
 ---
 
@@ -64,79 +68,70 @@ route → verify → bound cost → prove
 
 | | |
 |:--|:--|
-| **Loop, not monologue** | The unit of quality is a finished agent episode |
-| **Proof before claim** | Training done ≠ release. Receipts the only door |
+| **Loop, not monologue** | Quality is a finished agent episode |
+| **Proof before claim** | Receipts open the door — not screenshots |
 | **Open Core verifies** | Public Core is the audit surface |
-| **Refusal is a feature** | Incomplete chain → hold. Never soft-ship |
-| **Class, not cosmos** | Claims stay inside a named size / device / harness envelope |
+| **Refusal is a feature** | Incomplete chain → hold |
+| **Class, not cosmos** | Claims stay inside a named size · device · harness envelope |
 
 ---
 
-## Neptune · pre-funding surface
+## Neptune
 
 | Line | Role |
 |:-----|:-----|
-| **Neptune-1.0-27B** | Primary open Core — agent-class evidence |
-| **Neptune-1.0-27B-Q\*** | Same-net edge quant (Q8 / Q5 / Q4 …) — **bits, not a second dense Core** |
+| **Neptune-1.0-27B** | Open Core — agent-class evidence |
+| **Neptune-1.0-27B-Q\*** | Same-net edge quant (Q8 / Q5 / Q4 …) — bits, not a second dense line |
 | **Ainfera Factory** | admit → pilot → train → seal → certificate → claim |
-| **Eval certificates · VAC/$** | Preregistered held-out proof; Verified Agentic Completions per Dollar where defined |
+| **Eval certificates · VAC/$** | Preregistered held-out proof · Verified Agentic Completions per Dollar |
 
-```text
-Public Core (pre-funding):   Neptune-1.0-27B  +  certified quant SKUs of the same net
-Not pre-funding public Core: Neptune-1.0-9B
-```
+Quant is **compression of the 27B net**, not a separate product family.
 
 ---
 
-## Factory law
+## Factory
 
 ```text
 public-data admit
     → base reproduction
     → frozen peers + harness pin
     → trajectories + pilots
-    → SFT → DPO → GRPO   (only with measured uplift)
+    → SFT → DPO → GRPO   (with measured uplift only)
     → quant + device certificates
     → sealed eval + independent reproduction
     → claim envelope ≤ width of the receipts
 ```
 
-If any link is missing, the factory **holds**.  
-A factory that cannot refuse is a cost sink.
+If any link is missing, the factory **holds**.
 
 ---
 
-## Release law
+## Release standard
 
-Training completion is **not** a release criterion.
+A model claim requires:
 
-A release path requires:
-
-1. **Preregistered**, held-out comparative evidence under a frozen agent harness  
-2. **Provenance-bound** reproducibility  
-3. A **named** device / serving envelope when deployment is claimed  
-4. A **passing** release gate  
+1. Preregistered held-out evidence under a frozen agent harness  
+2. Provenance-bound reproducibility  
+3. A named device / serving envelope when deployment is claimed  
+4. A passing release gate  
 
 No unqualified “best model.”  
-No vibes on a leaderboard screenshot.  
-No public checkpoint without founder CLEAR and release authority.
+No leaderboard vibes without receipts.
 
 ---
 
-## Product surface
+## Surfaces
 
-| Surface | Purpose |
-|:--------|:--------|
-| [ainfera.ai](https://ainfera.ai) | Lab + company site |
-| [`ainfera-evals`](https://github.com/ainfera-ai/ainfera-evals) | Certificates + VAC/$ (private until launch) |
-| [`neptune`](https://github.com/ainfera-ai/neptune) | Factory control plane (private) |
-| [Hugging Face @ainfera-ai](https://huggingface.co/ainfera-ai) | Weights when certificates clear |
+| | |
+|:--|:--|
+| Website | [ainfera.ai](https://ainfera.ai) |
+| X | [@ainfera_ai](https://x.com/ainfera_ai) |
+| LinkedIn | [Ainfera](https://www.linkedin.com/company/ainfera/) |
+| Hugging Face | [@ainfera-ai](https://huggingface.co/ainfera-ai) |
+| Eval stack | [`ainfera-evals`](https://github.com/ainfera-ai/ainfera-evals) |
 
 ---
 
 <p align="center">
-  <sub>
-    Delaware C-Corp · Evidence-gated · Gates over dates<br />
-    © Ainfera Inc.
-  </sub>
+  <sub>Evidence-gated · Savings-bound · © Ainfera Inc.</sub>
 </p>
