@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Building <strong>Neptune</strong> — agent-native open Core, bound by evidence
+  Building governed agentic systems — evidence before claims
 </p>
 
 <p align="center">
@@ -24,26 +24,51 @@
 
 ---
 
-<br />
-
 ```text
-We build models that finish work in the world —
+We build systems that finish work in the world —
 and only ship claims when the evidence holds.
 ```
-
-<br />
 
 ## What we are
 
 **Ainfera** is an **AI-native model factory**.
 
-Our product line is **Neptune** — models native to the agent loop, not chat models wrapped in a prompt.
+We build governed agentic systems: models, deterministic controls, state verification, replay, and evidence that can withstand scrutiny.
 
 ```text
 plan → tools → world → recover → complete
 ```
 
 <p align="center"><em>A factory, not a marketplace. Rails distribute. Evidence defines us.</em></p>
+
+---
+
+## Product architecture
+
+| Layer | Role | Current posture |
+|:--|:--|:--|
+| **Ainfera Factory OS** | Governed factory control plane: admit → pilot → train → seal → certificate → claim | Internal engineering system |
+| **Neptune-1.0-27B** | Open Core for agent-class evidence | Evidence-gated development |
+| **Aeneas-9B** | Compact governed-action R&D program: typed intent, deterministic policy, state verification, trace/replay | Internal, evidence-gated R&D |
+| **Eval certificates · VAC/$** | Preregistered held-out proof and Verified Agentic Completions per Dollar | Evaluation framework |
+
+Aeneas is not a public release claim or a raw-checkpoint announcement. Its scope is earned only through separate source, reliability, evaluation, and release gates.
+
+---
+
+## Factory OS
+
+```text
+public-data admit
+    → base reproduction
+    → frozen peers + harness pin
+    → trajectories + pilots
+    → adaptation only with measured uplift
+    → sealed eval + independent reproduction
+    → claim envelope ≤ width of the receipts
+```
+
+If any link is missing, the factory **holds**.
 
 ---
 
@@ -59,39 +84,9 @@ plan → tools → world → recover → complete
 
 ---
 
-## Neptune
-
-| Line | Role |
-|:-----|:-----|
-| **Neptune-1.0-27B** | Open Core — agent-class evidence |
-| **Neptune-1.0-27B-Q\*** | Same-net edge quant (Q8 / Q5 / Q4 …) — bits, not a second dense line |
-| **Ainfera Factory** | admit → pilot → train → seal → certificate → claim |
-| **Eval certificates · VAC/$** | Preregistered held-out proof · Verified Agentic Completions per Dollar |
-
-Quant is **compression of the 27B net**, not a separate product family.
-
----
-
-## Factory
-
-```text
-public-data admit
-    → base reproduction
-    → frozen peers + harness pin
-    → trajectories + pilots
-    → SFT → DPO → GRPO   (with measured uplift only)
-    → quant + device certificates
-    → sealed eval + independent reproduction
-    → claim envelope ≤ width of the receipts
-```
-
-If any link is missing, the factory **holds**.
-
----
-
 ## Release standard
 
-A model claim requires:
+A model or system claim requires:
 
 1. Preregistered held-out evidence under a frozen agent harness  
 2. Provenance-bound reproducibility  
@@ -111,10 +106,12 @@ No leaderboard vibes without receipts.
 | X | [@ainfera_ai](https://x.com/ainfera_ai) |
 | LinkedIn | [Ainfera](https://www.linkedin.com/company/ainfera/) |
 | Hugging Face | [@ainfera-ai](https://huggingface.co/ainfera-ai) |
+| Factory OS | [`factory-os`](https://github.com/ainfera-ai/factory-os) |
+| Aeneas-9B | [`aeneas-9b`](https://github.com/ainfera-ai/aeneas-9b) — internal R&D |
 | Eval stack | [`ainfera-evals`](https://github.com/ainfera-ai/ainfera-evals) |
 
 ---
 
 <p align="center">
-  <sub>AI-native model factory · Neptune · Evidence-gated · © Ainfera Inc.</sub>
+  <sub>AI-native model factory · Factory OS · Neptune · Aeneas · Evidence-gated · © Ainfera Inc.</sub>
 </p>
