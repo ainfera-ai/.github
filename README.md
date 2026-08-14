@@ -1,37 +1,28 @@
-# ainfera-ai/.github
+# Studio Tune GitHub Organization
 
-Organization profile and shared GitHub community files for **Ainfera**.
+This repository contains the public organization profile and community-health files for Studio Tune.
 
-<p align="center">
-  <img src="assets/ainfera-mark-ice.svg" alt="Ainfera mark" width="96" />
-</p>
+Studio Tune is the product direction built by Ainfera: a local-first, evidence-first workspace for building, adapting, evaluating, and verifying AI systems.
 
-<p align="center"><strong>The AI-native model factory</strong> · Neptune · Evidence-gated</p>
+The public profile is intentionally conservative. It does not claim that a legal company rename, public launch, production deployment, independent certification, or commercial availability has occurred.
 
-<p align="center">
-  <a href="https://ainfera.ai">Website</a> ·
-  <a href="https://x.com/ainfera_ai">X</a> ·
-  <a href="https://www.linkedin.com/company/ainfera/">LinkedIn</a> ·
-  <a href="https://huggingface.co/ainfera-ai">Hugging Face</a>
-</p>
+## Profile
 
-## What lives here
+See [`profile/README.md`](profile/README.md).
 
-| Path | Purpose |
-|------|---------|
-| [`profile/README.md`](profile/README.md) | Public GitHub **organization profile** (org home) |
-| [`profile/ainfera-mark-ice.svg`](profile/ainfera-mark-ice.svg) | Ice mark for the org profile |
-| [`assets/ainfera-mark-ice.svg`](assets/ainfera-mark-ice.svg) | Same mark for this repo README |
+## Repository roles
 
-## Ainfera in one line
+- `studiotune-ai/desktop-app` — Studio Tune Desktop
+- `studiotune-ai/cli` — Studio Tune CLI
+- `studiotune-ai/tune-agent` — constrained Tune Agent boundary
+- `studiotune-ai/studiotune-os` — private operating-system foundation
 
-Ainfera is an **AI-native model factory** building **Neptune**. Public open Core line: **Neptune-1.0-27B** and same-net **quant SKUs**. Proof before claim.
+## Claim ceiling
 
-## Related repositories
+Current work verifies local workflow mechanics and evidence-boundary behavior. Real training, real model inference in the evaluation path, GPU/remote execution, production readiness, publication, deployment, customer value, and independent certification remain unclaimed until separately evidenced.
 
-| Repository | Role |
-|------------|------|
-| [`neptune`](https://github.com/ainfera-ai/neptune) | Factory control plane |
-| [`ainfera-evals`](https://github.com/ainfera-ai/ainfera-evals) | Eval suites, certificates, VAC/$ harness |
-| [`web`](https://github.com/ainfera-ai/web) | ainfera.ai lab site |
-| [`valar`](https://github.com/ainfera-ai/valar) | Company knowledge vault |
+## Contact and public links
+
+Public links will be added only after they are verified live and approved for publication.
+
+Studio Tune is currently a product direction from Ainfera. Legal and corporate naming changes are separate decisions.
