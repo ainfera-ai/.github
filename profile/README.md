@@ -1,115 +1,95 @@
 <p align="center">
-  <img src="ainfera-mark-ice.svg" alt="Studio Tune" width="140" />
+  <img src="ainfera-mark-ice.svg" alt="Ainfera" width="140" />
 </p>
 
-<h1 align="center">Studio Tune</h1>
+<h1 align="center">Ainfera</h1>
 
 <p align="center">
-  <strong>The agent-native workspace for building, adapting, and evaluating AI systems.</strong>
-</p>
-
-<p align="center">
-  Built by Ainfera · evidence before claims
+  <strong>Building the tools that shape model behavior.</strong>
 </p>
 
 <p align="center">
-  <a href="https://studiotune.ai"><img alt="Website" src="https://img.shields.io/badge/studiotune.ai-0B1220?style=for-the-badge&labelColor=111A2E" /></a>
+  Evidence before claims · StudioTune beta release
+</p>
+
+<p align="center">
+  <a href="https://ainfera.ai"><img alt="Ainfera website" src="https://img.shields.io/badge/ainfera.ai-0B1220?style=for-the-badge&labelColor=111A2E" /></a>
   &nbsp;
-  <a href="https://github.com/studiotune-ai"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://studiotune.ai"><img alt="StudioTune website" src="https://img.shields.io/badge/StudioTune-Beta_release-0B1220?style=for-the-badge&labelColor=111A2E" /></a>
+  &nbsp;
+  <a href="https://ainfera.ai/deck"><img alt="Investor information" src="https://img.shields.io/badge/Investor-Deck-1F2937?style=for-the-badge&labelColor=111A2E" /></a>
 </p>
 
 ---
-
-```text
-intent → inspect → plan → approve → adapt → evaluate → verify
-```
 
 ## What we are building
 
-Studio Tune is a local-first, evidence-first workspace for people who want to build and adapt AI systems without losing track of what actually changed.
+Ainfera is building **StudioTune**: a product that helps people shape a model for the work they want it to do.
 
-The product is designed around a simple principle:
-
-> Build from your data. See what changed. Know whether it should advance.
-
-Studio Tune is the new product direction from Ainfera. The legal and corporate transition, if any, is separate from this product profile and is not being claimed here.
-
-## Product surfaces
-
-| Surface | Role | Current posture |
-|:--|:--|:--|
-| **Studio Tune Desktop** | Local desktop workflow for intent, planning, bounded runs, comparison, evidence, and verification | Private pre-release development |
-| **Studio Tune CLI** | Scriptable and continuous-integration surface for the same lifecycle | Beta-track boundary |
-| **Tune Agent** | Constrained local agent that proposes safe actions and reports verified results | Contract-validation boundary |
-| **StudioTune OS** | Operating system for agent-native company workflows, policies, evidence, and bounded execution | Private foundation |
-
-## Evidence loop
+The idea is simple:
 
 ```text
-intent
-  → inspect
-  → bounded plan
-  → human approval
-  → controlled run
-  → parent / candidate comparison
-  → failure diff
-  → evidence packet
-  → offline verification
-  → SHIP / HOLD / REVISE / REJECT
+Describe the behavior.
+Try the change.
+Compare the result.
+Keep the proof.
 ```
 
-A completed run is not proof of improvement.
+StudioTune is designed for software, agents, devices, research, operations, and other workflows where a general model may not be enough for the job.
 
-A green workflow is not permission to publish or deploy.
+## StudioTune
 
-If the evidence chain is incomplete, the system holds.
+StudioTune is the primary product.
 
-## Current implementation boundary
+```text
+Shape a model for the work you want it to do.
+```
 
-Implemented and tested locally:
+Three connected surfaces:
 
-- Bounded local lifecycle mechanics
-- Parent/candidate comparison and failure-diff mechanics
-- Evidence packets and offline verification
-- Typed desktop IPC boundary
-- Builder journey over the local socket
-- Constrained agent-contract validation
+| Product | Role | Status |
+|:--|:--|:--|
+| **StudioTune Desktop** | Visual workspace for shaping, comparing, and reviewing model behavior | **Beta release** |
+| **Tune Agent** | Guided proposal layer for turning a goal into a clear path | **Beta release · proposal-only** |
+| **StudioTune CLI** | Local, scriptable interface for repeatable model workflows | **Beta release** |
 
-Not claimed:
+Visit: [studiotune.ai](https://studiotune.ai)
 
-- Real QLoRA training
-- Real model inference in the evaluation path
-- NVIDIA, remote, or GPU execution
-- Production readiness
-- Autonomous publication or deployment
-- Independent certification or accreditation
-- Customer, revenue, benchmark, or superiority claims
+## Why this matters
 
-The current repositories report their own exact test evidence and claim ceilings.
+A general model is made for everyone. A fine-tuned model can be shaped for a purpose.
 
-## Operating principles
+Open-weight models give builders more control over the intelligence they use. Fine-tuning can help make behavior more consistent for a product, agent, device, or workflow.
 
-- Local first.
-- Evidence before claims.
-- Human approval at consequential boundaries.
-- Agents propose and execute within bounded authority.
-- Refusal is a valid result.
-- Personal founder context does not enter public product surfaces.
-- Hermes remains the control-plane runtime for agent operations.
+Not every problem needs fine-tuning. StudioTune is built to make the decision and the workflow easier to understand.
 
-## Repositories
+## Evidence before claims
 
-- [`desktop-app`](https://github.com/studiotune-ai/desktop-app) — Studio Tune Desktop
-- [`cli`](https://github.com/studiotune-ai/cli) — Studio Tune CLI
-- [`tune-agent`](https://github.com/studiotune-ai/tune-agent) — constrained Tune Agent boundary
-- [`studiotune-os`](https://github.com/studiotune-ai/studiotune-os) — private company operating-system foundation
+Tune Agent suggests. The Engine runs the work. The human decides.
 
-## Public status
+A passing test is not proof of model improvement. A completed run is not automatically a better model. Evidence remains explicit, reviewable, and bounded.
 
-Studio Tune is in private pre-release development.
+## Current status
 
-The profile describes the product direction and verified mechanics. It does not announce a completed company rename, public release, production deployment, or commercial availability.
+StudioTune is in beta release with evidence-gated capabilities.
+
+The public repositories and website describe product direction and verified mechanics. They do not claim:
+
+- production readiness;
+- universal model or device support;
+- customer traction or revenue;
+- validated model improvement;
+- benchmark superiority;
+- public release of every capability.
+
+## Explore
+
+- [StudioTune](https://studiotune.ai)
+- [StudioTune GitHub organization](https://github.com/studiotune-ai)
+- [Investor information](https://ainfera.ai/deck)
 
 ---
 
-<sub>Studio Tune · Built by Ainfera · Evidence before claims</sub>
+<sub>Ainfera · StudioTune · Evidence before claims</sub>
+
+<!-- Public company profile. Do not add private programs, personal deployment packs, secrets, or unsupported claims. -->
