@@ -92,4 +92,4 @@ The public repositories and website describe product direction and verified mech
 
 <sub>Ainfera · StudioTune · Evidence before claims</sub>
 
-<!-- Public company profile. Do not add private programs, personal deployment packs, secrets, or unsupported claims. -->
+<!-- Public company profile. Do not add private programs, secrets, or unsupported claims. -->
