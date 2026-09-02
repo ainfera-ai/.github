@@ -9,13 +9,13 @@
 </p>
 
 <p align="center">
-  Evidence before claims · StudioTune beta release
+  Evidence before claims
 </p>
 
 <p align="center">
   <a href="https://ainfera.ai"><img alt="Ainfera website" src="https://img.shields.io/badge/ainfera.ai-0B1220?style=for-the-badge&labelColor=111A2E" /></a>
   &nbsp;
-  <a href="https://studiotune.ai"><img alt="StudioTune website" src="https://img.shields.io/badge/StudioTune-Beta_release-0B1220?style=for-the-badge&labelColor=111A2E" /></a>
+  <a href="https://huggingface.co/ainfera-ai"><img alt="Ainfera on Hugging Face" src="https://img.shields.io/badge/Hugging_Face-ainfera--ai-0B1220?style=for-the-badge&labelColor=111A2E" /></a>
   &nbsp;
   <a href="https://ainfera.ai/deck"><img alt="Investor information" src="https://img.shields.io/badge/Investor-Deck-1F2937?style=for-the-badge&labelColor=111A2E" /></a>
 </p>
@@ -24,7 +24,7 @@
 
 ## What we are building
 
-Ainfera is building **StudioTune**: a product that helps people shape a model for the work they want it to do.
+Ainfera builds tools and models that shape behavior for specific work. We publish model cards and Spaces first, and add weights only after a sealed evaluation.
 
 The idea is simple:
 
@@ -35,61 +35,57 @@ Compare the result.
 Keep the proof.
 ```
 
-StudioTune is designed for software, agents, devices, research, operations, and other workflows where a general model may not be enough for the job.
+Our current focus is a small set of vertical models and embodied agents, each aimed at a defined job rather than a general benchmark.
 
-## StudioTune
+## Products
 
-StudioTune is the primary product.
-
-```text
-Shape a model for the work you want it to do.
-```
-
-Three connected surfaces:
+Five products currently in development. Some are live as Hugging Face Spaces; others exist as model cards while evaluation work continues.
 
 | Product | Role | Status |
 |:--|:--|:--|
-| **StudioTune Desktop** | Visual workspace for shaping, comparing, and reviewing model behavior | **Beta release** |
-| **Tune Agent** | Guided proposal layer for turning a goal into a clear path | **Beta release · proposal-only** |
-| **StudioTune CLI** | Local, scriptable interface for repeatable model workflows | **Beta release** |
-
-Visit: [studiotune.ai](https://studiotune.ai)
+| **[Grok Reachy](https://huggingface.co/spaces/ainfera-ai/grok-reachy)** | Grok Bot embodied on Reachy Mini | **Space** |
+| **[Hermes Reachy](https://huggingface.co/spaces/ainfera-ai/hermes-reachy)** | Hermes agent embodied on Reachy Mini | **Space** |
+| **[Hermes](https://huggingface.co/ainfera-ai/hermes)** | Finance desk model, Spark-trained | **Card only** |
+| **[Selene](https://huggingface.co/ainfera-ai/selene)** | iPhone legal-action model, Spark-trained | **Card only** |
+| **[Mercury](https://huggingface.co/ainfera-ai/mercury)** | Finance-vertical filing desk | **Card only** |
 
 ## Why this matters
 
-A general model is made for everyone. A fine-tuned model can be shaped for a purpose.
+A general model is made for everyone. A shaped model can be aimed at a purpose.
 
-Open-weight models give builders more control over the intelligence they use. Fine-tuning can help make behavior more consistent for a product, agent, device, or workflow.
+Open-weight models give builders more control over the intelligence they use. Shaping behavior for a defined job — a finance desk, a legal action on a phone, a small embodied agent — can make outcomes more consistent than a general model applied to the same task.
 
-Not every problem needs fine-tuning. StudioTune is built to make the decision and the workflow easier to understand.
+Not every problem needs a dedicated model. We publish cards and Spaces so the decision, and the mechanics, stay in the open.
 
 ## Evidence before claims
 
-Tune Agent suggests. The Engine runs the work. The human decides.
+A demo is not proof. A model card is not a benchmark. A completed training run is not automatically a better model.
 
-A passing test is not proof of model improvement. A completed run is not automatically a better model. Evidence remains explicit, reviewable, and bounded.
+We publish model cards and Spaces so the intent and current state of each product are visible. Weights are held back until a sealed evaluation supports releasing them. Evidence remains explicit, reviewable, and bounded.
 
 ## Current status
 
-StudioTune is in beta release with evidence-gated capabilities.
+Cards first. Spaces where a runnable demo exists. Weights only after a sealed evaluation.
 
-The public repositories and website describe product direction and verified mechanics. They do not claim:
+The public repositories, Spaces, and website describe product direction and verified mechanics. They do not claim:
 
 - production readiness;
 - universal model or device support;
 - customer traction or revenue;
 - validated model improvement;
 - benchmark superiority;
-- public release of every capability.
+- public release of weights for every product.
 
 ## Explore
 
-- [StudioTune](https://studiotune.ai)
-- [StudioTune GitHub organization](https://github.com/studiotune-ai)
+- [ainfera.ai](https://ainfera.ai)
+- [Ainfera on Hugging Face](https://huggingface.co/ainfera-ai)
+- [Ainfera on GitHub](https://github.com/ainfera-ai)
 - [Investor information](https://ainfera.ai/deck)
+- [StudioTune](https://studiotune.ai)
 
 ---
 
-<sub>Ainfera · StudioTune · Evidence before claims</sub>
+<sub>Ainfera · Grok Reachy · Hermes Reachy · Hermes · Selene · Mercury · Evidence before claims</sub>
 
 <!-- Public company profile. Do not add private programs, secrets, or unsupported claims. -->
